@@ -1,0 +1,52 @@
+
+/*
+   .vertical-nav {
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    position: sticky;
+    /*position: fixed;
+  } 
+  */
+  .vertical-nav {
+    position: sticky;
+    top :80px; /* Position sticky pour rester visible lors du défilement */
+    flex: 0 0 150px;
+
+     /* Aligne avec le haut de la fenêtre */
+    left: 0; /* Aligne avec le bord gauche */
+    height: 40vh; /* S'étend sur toute la hauteur de la fenêtre */
+    width: 200px; /* Largeur de la navigation */
+    background-color: #f4f4f4; /* Couleur d'arrière-plan */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 100; /* Place la nav au-dessus des autres éléments */
+  }
+  
+
+
+  
+  .vertical-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vertical-nav li {
+    margin: 15px 0;
+  }
+  
+  .vertical-nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .vertical-nav li.active a {
+    color: #007bff;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  

@@ -1,0 +1,89 @@
+
+.Header {
+  width: 100%;
+  height: 150px; /* Hauteur fixe du Header */
+  background-color: #001f3f; /* Couleur */
+  display: flex;
+  border:  black;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  z-index: 900;
+  padding: 0px;
+
+}
+
+.logo-image{
+  width: 150px;
+  padding: 20px;
+}
+
+  .Header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  #Htitle{
+    padding-right: 20px;
+  }
+  p{
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+
+
+
+
+  @media screen and (max-width: 768px) {
+  .Header{
+    font-size: 0.5rem;
+    width: 95%;
+    height: 75px;
+  }
+  .logo-image{
+    width: 100px;
+    padding: 10px;
+
+  }
+
+  p{
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+
+  #Htitle{
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+  }
+
+  
+
+  @media screen and (max-width: 400px) {
+    .Header{
+      font-size: 0.5rem;
+      width: 95%;
+      height: 75px;
+    }
+    .logo-image{
+      width: 100px;
+      padding: 10px;
+  
+    }
+  
+    p{
+      padding: 5px;
+      font-size: 0.7rem;
+    }
+  
+    #Htitle{
+      padding-right: 10px;
+      font-size: 1rem;
+    }
+    }
+  
+  
+    
+  
+    

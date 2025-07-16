@@ -1,0 +1,80 @@
+.NavBarWrapper {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #283c63;
+  z-index: 999;
+}
+
+.NavBarWrapper.sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.NavBar {
+  height: 60px; /* Hauteur de la NavBar */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: inherit;
+}
+
+.NavBar a {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+  background-color: none;
+  font-size: 16px; /* Taille de police par défaut */
+}
+
+.NavBar a.active {
+  background-color: #001f3f;
+  color: white;
+  border-radius: 5px;
+}
+
+.NavBarWrapper {
+  background-color: #89afd6;
+}
+
+
+/* Media queries pour la responsivité */
+@media screen and (max-width: 768px) {
+  .NavBar a {
+    font-size: 10px;
+    padding: 0.4rem 0.8rem;
+  }
+  .NavBarWrapper {
+    width: 80%;
+    background-color: #89afd6;
+
+    margin: 0 auto;
+    z-index: 999;
+  }
+  .NavBarWrapper.sticky {
+    width: 95%;
+    background-color: #89afd6;
+
+  }
+  
+ 
+  .NavBar {
+    height: 50px; /* Réduire légèrement la hauteur sur mobile */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .NavBar a {
+    font-size: 12px;
+    padding: 2px;
+  }
+  nav{
+    display: flex;
+  }
+ 
+}
+

@@ -1,0 +1,83 @@
+.theme-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .theme-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .theme-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .theme-title-container {
+    flex: 1;
+  }
+  
+  .theme-title {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .theme-problem-statement {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .theme-content {
+    margin-top: 15px;
+  }
+  
+  .section-title {
+    font-size: 1.25rem;
+    margin: 10px 0;
+    color: #007bff;
+  }
+  
+  .theme-content p,
+  .theme-content ul {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .theme-content ul {
+    padding-left: 20px;
+  }
+  
+  .theme-content li {
+    margin-bottom: 5px;
+  }
+  
+  .theme-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .theme-content a:hover {
+    text-decoration: underline;
+  }
+
+  .judges-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+    
+  @media (max-width: 768px) { 
+  .theme-header { flex-direction: column; }
+   }

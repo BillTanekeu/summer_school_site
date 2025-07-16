@@ -1,0 +1,265 @@
+/* Collaboration Section Styles */
+.collaboration-container {
+    max-width: 1200px;
+    width: 98%;
+    margin: 0 auto;
+    padding: 40px 20px;
+      background-color: #fdfeff;
+    
+  }
+  
+  .collaboration-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+  }
+  
+  .text-section {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .title-underline {
+    width: 60px;
+    height: 3px;
+    background-color: #3498db;
+    margin-top: 8px;
+  }
+  
+  .content-text {
+    line-height: 1.6;
+    color: #34495e;
+    font-size: 16px;
+  }
+  
+  .content-text p {
+    margin-bottom: 16px;
+    text-align: justify;
+  }
+  
+  .content-text strong {
+    color: #2c3e50;
+    font-weight: 600;
+  }
+  
+  .image-section {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .image-container {
+    background-color: #e8f4f8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .workshop-header {
+    background-color: #b8dce8;
+    padding: 12px 16px;
+    text-align: center;
+  }
+  
+  .workshop-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 4px;
+  }
+  
+  .workshop-subtitle {
+    font-size: 12px;
+    color: #5a6c7d;
+  }
+  
+  .sponsors-section {
+    padding: 16px;
+    background-color: #f3f6f8;
+  }
+  
+  .sponsors-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 12px;
+    text-align: center;
+    text-decoration: solid;
+  }
+  
+  .sponsors-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .logo-item {
+    background-color: white;
+    padding: 8px 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2c3e50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .participants-photo {
+    height: 200px;
+    background-color: #d4e6f1;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .photo-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .person {
+    width: 60px;
+    height: 80px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-bottom: 10px;
+  }
+  
+  .person1 {
+    background-color: #ff9800;
+  }
+  
+  .person2 {
+    background-color: #8d6e63;
+  }
+  
+  .person3 {
+    background-color: #f44336;
+  }
+  
+  .person4 {
+    background-color: #9c27b0;
+  }
+  
+  .person5 {
+    background-color: #4caf50;
+  }
+  
+  .summary-section {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .summary-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2c3e50;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .summary-title .title-underline {
+    margin: 8px auto 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .collaboration-content {
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .text-section {
+      max-width: 100%;
+    }
+    
+    .image-section {
+      max-width: 100%;
+    }
+    
+    .section-title,
+    .summary-title {
+      font-size: 28px;
+    }
+    
+    .sponsors-logos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .photo-placeholder {
+      padding: 15px;
+    }
+    
+    .person {
+      width: 45px;
+      height: 65px;
+    }
+  }
+
+
+  
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+  
+  .cood-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .cood-container > * {
+    flex: 0 0 auto;
+    min-width: 250px;
+    animation: scroll 8s linear infinite;
+  }
+  
+  /* Dupliquer les éléments pour un défilement continu */
+  .cood-container:hover > * {
+    animation-play-state: paused;
+  }
+
+
+
+  .comm-container {
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+      padding: 20px 0;
+    }
+    
+    .comm-container > * {
+      flex: 0 0 auto;
+      min-width: 250px;
+      animation: scroll 10s linear infinite;
+    }
+    
+  .comm-container:hover > * {
+      animation-play-state: paused;
+    }
+    
