@@ -1,0 +1,44 @@
+.judge-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    margin: 5px;
+  }
+  
+  .judge-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1px;
+  }
+  
+  .judge-info {
+    color: #333;
+  }
+  
+  .judge-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1px;
+  }
+  
+  .judge-role {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .judge-organization {
+    font-size: 0.8rem;
+    color: #777;
+  }
+
+  p{
+    padding: 5px;
+    margin: 0px;
+  }
+  
+
+  

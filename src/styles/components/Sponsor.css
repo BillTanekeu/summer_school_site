@@ -1,0 +1,48 @@
+.sponsor {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .sponsor-logo {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .sponsor-logo:hover {
+    transform: scale(1.1);
+  }
+  
+  .sponsor-name {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .sponsor:hover .sponsor-name {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1000;
+  }
+
+  .sponsors-list{
+
+    width: 85%;
+    position: relative;
+    display: block;
+    margin: 10px;
+    text-align: center;
+  }
+  

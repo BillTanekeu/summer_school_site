@@ -1,0 +1,31 @@
+.NavigationLogIn {
+    width: 290px;
+    margin-right: 0px;
+    display: flex;
+    
+   
+    
+    a{
+        position: relative;
+        margin-right: 30px;
+        margin-left: 10px;
+        text-decoration: none;
+        color: gray;
+    }
+    .active{
+        color: #1A9CD9;
+        text-decoration: none;
+        font-weight: bold;
+        &::after{
+            content: '';
+            width: 70%;
+            height: 5px;
+            background: #1A9CD9;
+            position: absolute;
+            top: 30px;
+            left: 35%;       
+            
+          }
+    }
+    
+}

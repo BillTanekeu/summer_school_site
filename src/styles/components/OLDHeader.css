@@ -1,0 +1,128 @@
+/* Styles de base */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #001f3f; /* Bleu foncé */
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #00aaff; /* Couleur d'accentuation */
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-button,
+  .signup-button {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .login-button:hover,
+  .signup-button:hover {
+    background-color: #00aaff;
+    border-color: #00aaff;
+  }
+  
+  /* Responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .header-container {
+      flex-wrap: wrap;
+    }
+  
+    .logo-text {
+      font-size: 1.2rem;
+    }
+  
+    .nav-links {
+      display: none; /* Cacher le menu sur les petits écrans */
+    }
+  
+    .auth-buttons {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Mobile-friendly navigation menu */
+  @media (max-width: 768px) {
+    .mobile-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+      background-color: #001f3f;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      padding: 10px;
+      display: none; /* Cacher le menu déroulant */
+    }
+  
+    .mobile-menu.show {
+      display: flex;
+    }
+  
+    .nav-toggle {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+    }
+  
+    .nav-toggle div {
+      width: 25px;
+      height: 3px;
+      background: #fff;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .nav-toggle,
+    .mobile-menu {
+      display: none;
+    }
+  
+    .nav-links {
+      display: flex; /* Réafficher les liens de navigation */
+    }
+  }
+  
