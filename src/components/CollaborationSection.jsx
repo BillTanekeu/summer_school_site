@@ -6,11 +6,17 @@ import prtchana from '../assets/Prof/Prof_Tchana.jpeg';
 import danielHagimont from '../assets/Prof/daniel_hagimont.jpeg';
 import david from '../assets/Prof/david.jpeg';
 import directeurEstlc from '../assets/Prof/directeur_estlc.jpeg';
-import mballa from '../assets/Prof/mballa_eloundou.png';
+import mballa from '../assets/Prof/mballa.png';
 import mvogo from '../assets/Prof/mvogo_jean_baptiste.jpeg';
 import recteurUeb from '../assets/Prof/recteur_ueb.jpeg';
-import mouzong from '../assets/Prof/mouzong.jpeg';
-
+import mouzong from '../assets/Prof/mouzong.jpg';
+import az from '../assets/Prof/az_png.png';
+import ewodo from '../assets/Prof/ewodo.jpeg';
+import migri from '../assets/Prof/migri.jpeg';
+import prospert from '../assets/Prof/Prosper-Noumo.jpeg';
+import youmbi from '../assets/Prof/youmbi.jpeg';
+import sapnken from '../assets/Prof/sapnken.jpeg';
+import diboma from '../assets/Prof/diboma.png';
 let supervisor = [
   {
     image : recteurUeb,
@@ -86,44 +92,44 @@ let committed = [
     organization : "ESTLC"
   },
   {
-    image : "",
+    image : sapnken,
     name:"Dr SAPNKEN FLAVIAN EMMANUEL",
     role : "CD-GL",
     organization : "ESTLC"
   },
   {
-    image : "",
+    image : diboma,
     name:"Dr DIBOMA BENJAMIN SALOMON",
     role : "CD-GT",
     organization : "ESTLC"
   },
   {
-    image : "",
+    image : az,
     name:"M. AZONG TCHITILE EMMANUEL WILFRIED",
     role : "C-SPE",
     organization : "ESTLC"
   },
   {
-    image : "",
+    image : ewodo,
     name:"M. EWODO AMOUGOU MARCEL RODRIGUE",
     role : "Enseignant",
     organization : "ESTLC"
   },
   {
-    image : "",
+    image : prospert,
     name:"Dr GOPDJIM NOUMO PROSPER",
     role : "Enseignant",
     organization : "ESTLC"
   },
   {
-    image : "",
+    image : migri,
     name:"Dr MIGUIRI BLAISE",
     role : "Enseignant",
     organization : "ESTLC"
   },
 
   {
-    image : "",
+    image : youmbi,
     name:"Dr YOUMBI FOUEGO Dorota",
     role : "Enseignant",
     organization : "ESTLC"
@@ -143,7 +149,7 @@ const CollaborationSection = () => {
 
 
             <p>
-            La collaboration entre le Cameroun et les partenaires de Grenoble 
+            La collaboration entre le Cameroun et les partenaires (Grenoble, Rennes, Toulouse)   
             vise à établir un partenariat scientifique et technologique de long terme, 
             centré sur l’Internet des objets (IoT), les systèmes distribués,
              l’intelligence artificielle (IA) et la sécurité.
@@ -194,32 +200,38 @@ const CollaborationSection = () => {
               </div>
 
               <div className="sponsors-title">Coordination</div>
-
+              
               <div className="cood-container">
-                {coordination.map((judge, index) => (
-                  <Judge
-                    key={index}
-                    image={judge.image}
-                    name={judge.name}
-                    role={judge.role}
-                    organization={judge.organization}
-                  />
-                ))}
+                <div className="scroll-track">
+
+                  {[...coordination, ...coordination, ...coordination].map((judge, index) => (
+                    <Judge
+                      key={index}
+                      image={judge.image}
+                      name={judge.name}
+                      role={judge.role}
+                      organization={judge.organization}
+                    />
+                  ))}
+                  </div>
               </div>
 
 
               <div className="sponsors-title">Comité</div>
 
               <div className="comm-container">
-                {committed.map((judge, index) => (
-                  <Judge
-                    key={index}
-                    image={judge.image}
-                    name={judge.name}
-                    role={judge.role}
-                    organization={judge.organization}
-                  />
-                ))}
+                <div className="scroll-track">
+
+                {[...committed, ...committed].map((judge, index) => (
+                    <Judge
+                      key={index}
+                      image={judge.image}
+                      name={judge.name}
+                      role={judge.role}
+                      organization={judge.organization}
+                    />
+                  ))}
+                </div>
               </div>
 
 

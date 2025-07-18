@@ -7,7 +7,7 @@ const WorkshopSchedule = () => {
   const days = [
     { id: 0, date: "Monday, July 28, 2025", label: "Monday, July 28, 2025" },
     { id: 1, date: "Tuesday, July 29, 2025", label: "Tuesday, July 29, 2025" },
-    { id: 2, date: "Wednesday, July 26, 2025", label: "Wednesday, July 26, 2025" }
+    { id: 2, date: "Wednesday, July 30, 2025", label: "Wednesday, July 30, 2025" }
   ];
 
   const scheduleData = {
@@ -18,6 +18,7 @@ const WorkshopSchedule = () => {
         title: "",
         description: "Café matinal",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
       {
@@ -26,10 +27,11 @@ const WorkshopSchedule = () => {
         title: "Accueil",
         description: "Accueil des participants et installation",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
       {
-        time: "09:00 - 09:20",
+        time: "09:00 - 09:15",
         type: "Talk",
         title: "Allocution",
         description: "Allocution d’ouverture de Monsieur le Recteur de l’UEb ou son représentant",
@@ -37,80 +39,97 @@ const WorkshopSchedule = () => {
         hasSlides: false
       },
       {
-        time: "09:20 - 09:40",
+        time: "09:15 - 09:30",
         type: "Talk",
         title: "Allocution",
         description: "Allocution d’ouverture de Monsieur le Directeur de l’ESTLC",
         presenter: "Pr. TAMBA Jean Gaston",
+        modérateur:null,
         hasSlides: false
       },
       {
-        time: "09:40 - 10:40",
+        time: "09:30 - 10:15",
         type: "Talk",
-        title: "Conférence",
-        description: "Conférence inaugurale 1 « Enjeux et opportunités de la santé numérique » ",
-        presenter: null,
+        title: "Exposé",
+        description: "Exposé Scientifique 1 « Nécessité du numérique pour une santé inclusive » ",
+        presenter: " Dr. FacMedecineUEb",
+        modérateur:"Dr Mballa Eloundou Aimé Christel",
         hasSlides: false
       },
       {
-        time: "10:40 - 11:00",
+        time: "10:15 - 11h00",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé Scientifique 2 « Enjeux et opportunités de la santé numérique » ",
+        presenter: "Pr. David Bromberg",
+        modérateur:"Dr Mballa Eloundou Aimé Christel",
+        hasSlides: false
+      },
+      {
+        time: "11:00 - 11:30",
         type: "Break",
         title: "Pause-café",
         description: "Pause-café",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
       {
-        time: "11:00 - 12:30",
+        time: "11:30 - 12:15",
         type: "Talk",
-        title: "Atélier",
-        description: "Atelier thématique 1 « Nécessité du numérique pour une santé inclusive »",
-        presenter: null,
+        title: "Exposé",
+        description: "Exposé Scientifique 3 « Robotique médical et IOT, enjeux et perspectives »",
+        presenter: "Dr Mvogo Ahanda Joseph",
+        modérateur:"Dr Mballa Eloundou Aimé Christel",
         hasSlides: false
       },
       {
-        time: "12:30 - 14:00",
+        time: "12:15 - 14:00",
         type: "break",
         title: "Déjeuner",
         description: "Déjeuner",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
 
       {
-        time: "14:00 - 15:30",
+        time: "14:00 - 14:45",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 1 « un thème lié à la santé numérique »",
+        description: "Exposé scientifique 4 « Système d'exploitation pour Objets connectés »",
         presenter: null,
+        modérateur:"Dr YOUMBI FOUEGO Dorota",
         hasSlides: false
       },
 
+      {
+        time: "14:45 - 15:30",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 5 « Réduction de la consommation energétique dans l'usage des systèmes IOT »",
+        presenter:"Mérimé Ndeuga",
+        modérateur:"Dr YOUMBI FOUEGO Dorota",
+        hasSlides: false
+      },
       {
         time: "15:30 - 16:30",
         type: "Talk",
-        title: "Exposé",
-        description: "Exposé scientifique 2 « un thème lié à la santé numérique »",
-        presenter: null,
+        title: "Hackathon ",
+        description: "Hackathon « Présentation des thèmes et des équipes du Hackathon »",
+        presenter: "Dr Miguiri Blaise",
+        modérateur:null,
         hasSlides: false
       },
       {
         time: "16:30 - 17:00",
         type: "Talk",
-        title: "Hackathon ",
-        description: "Présentation des thèmes et des équipes du Hackathon",
-        presenter: null,
-        hasSlides: false
-      },
-      {
-        time: "17:00 - 17:30",
-        type: "Talk",
         title: "Synthèse",
         description: "Synthèse de la journée",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
-
 
 
     ],
@@ -121,80 +140,146 @@ const WorkshopSchedule = () => {
         title: "",
         description: "Café matinal",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
       {
-        time: "08:30 - 09:30",
+        time: "08:30 - 09:00",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé sur la collaboration : Collaboration avec les agences Françaises l’IRD, l’INRIA, l’Ambassade de France, l’AFD",
-        presenter: "Pr MELATAGIA YONTA Paulin",
+        description: "Exposé scientifique 6 « Nécessité du numérique pour une santé inclusive»",
+        presenter: "Pr Alain Tchana",
+        modérateur:"Dr GOPDJIM NOUMO PROSPER",
         hasSlides: false
       },
       {
-        time: "09:30 - 10:30",
+        time: "09:30 - 10:00",
         type: "Talk",
-        title: "Conférence",
-        description: " Conférence inaugurale 2 « Enjeux et opportunités de l’IOT »",
-        presenter: null,
+        title: "Exposé",
+        description: "Exposé scientifique 7 « Nécessité du numérique pour une santé inclusive»",
+        presenter: "Pr Batchakui",
+        modérateur:"Dr GOPDJIM NOUMO PROSPER",
         hasSlides: false
       },
       {
-        time: "10:40 - 11:00",
+        time: "10:00 - 10:30",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé Applicatif « »",
+        presenter: "M. Samuel Bayiha",
+        modérateur:"Dr GOPDJIM NOUMO PROSPER",
+        hasSlides: false
+      },
+      {
+        time: "10:30 - 11:00",
         type: "Break",
         title: "Pause-café",
         description: "Pause-café",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
       {
-        time: "11:00 - 12:30",
+        time: "11:00 - 11:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 3 « un thème lié à l’IOT » ",
-        presenter: null,
+        description: "Exposé scientifique 9 « Apprentissage de graphes pour la recommendation personnalisée de traitements à partir de dossiers patients » ",
+        presenter: "M. GHISLAIN WABO, Doctorant",
+        modérateur:"Dr GOPDJIM NOUMO PROSPER",
         hasSlides: false
       },
       {
-        time: "12:30 - 14:00",
+        time: "11:30 - 12:00",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 10 « Usage des techniques de machine learning pour la réduction du temps d'exécution » ",
+        presenter: "M. Mogo Régis, Doctorant",
+        modérateur:"Dr GOPDJIM NOUMO PROSPER",
+        hasSlides: false
+      },
+      
+      {
+        time: "12:00 - 14:00",
         type: "Break",
         title: "Déjeuner",
         description: "Déjeuner",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
       {
-        time: "14:00 - 15:00",
+        time: "14:00 - 14:30",
         type: "Talk",
         title: "Exposé",
-        description: " Exposé scientifique 4 « un thème lié à l’IOT »",
-        presenter: null,
+        description: " Exposé Scientifique 11 « GreenFaaS: Carbon-Aware, Cooperative, and Cost-Incentive Graceful Degradation Framework for Function-as-a-Service (FaaS) »",
+        presenter: "M. Onana Damase, Master 2",
+        modérateur:"M. EWODO AMOUGOU MARCEL",
         hasSlides: false
       },
       {
-        time: "15:00 - 15:30",
+        time: "14:30 - 15:00",
         type: "Talk",
-        title: "Table ronde",
-        description: "Table ronde « IOT au service de la santé»",
-        presenter: null,
+        title: "Exposé",
+        description: " Exposé scientifique 12 « Apprentissage par renforcement frugal pour le Diagnostic des maladies »",
+        presenter: "M. Tanekeu Bill Jordan, Master 2",
+        modérateur:"M. EWODO AMOUGOU MARCEL",
+        hasSlides: false
+      },
+      {
+        time: "15:00 - 15:20",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 13 «GNN frugal pour la détection du VIH»",
+        presenter: "M. Kaptchouang Yvan",
+        modérateur:"M. EWODO AMOUGOU MARCEL",
         hasSlides: false
       },
 
       {
-        time: "15:30 - 16:00",
+        time: "15:20 - 15:40",
         type: "Talk",
-        title: "Hackathon",
-        description: "Hackathon : Présentation mi-chemin de chaque équipe du Hackathon",
-        presenter: null,
+        title: "Exposé",
+        description: "Exposé scientifique 14 «Parallélisation du Quasy-Newton sur architecture multi-coeur»",
+        presenter: "M. Arsene Tayo",
+        modérateur:"M. EWODO AMOUGOU MARCEL",
         hasSlides: false
       },
 
       {
-        time: "16:00 - 16:30",
+        time: "15:40 - 16:00",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé Applicatif «»",
+        presenter: "M. Mérimé Ndeuga,étudiant",
+        modérateur:"M. EWODO AMOUGOU MARCEL",
+        hasSlides: false
+      },
+      {
+        time: "16:00 - 16:20",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé Applicatif «Plateforme de collecte de fond à l’ESTLC»",
+        presenter: "Daha Marc et Tondji Andrea, Etudiants",
+        modérateur:"M. EWODO AMOUGOU MARCEL",
+        hasSlides: false
+      },
+	  {
+        time: "16:20 - 16:40",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé Applicatif «plateforme IAAS Firecracker»",
+        presenter: "M. Achaire Zogo,Etudiant UY1",
+        modérateur:"M. EWODO AMOUGOU MARCEL",
+        hasSlides: false
+      },
+
+      {
+        time: "16:40 - 17:00",
         type: "Talk",
         title: "Synthèse",
         description: "Synthèse de la journée",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
 
@@ -206,38 +291,62 @@ const WorkshopSchedule = () => {
         title: "",
         description: "Café matinal",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
       {
-        time: "08:30 - 09:30",
+        time: "08:30 - 09:00",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 5 « Intelligence Artificielle, Santé Numérique et l’IOT »",
-        presenter: null,
+        description: "Exposé Scientifique  «Protection des données personnelles et RGPD : étude des risques liés aux cookies et au DOM Storage dans les applications web. »",
+        presenter: "Fideline Ngoufack et Franck Feuwo,Etudiants UY1",
+        modérateur:"Dr. Mvogo Ahanda",
         hasSlides: false
       },
       {
-        time: "09:30 - 10:30",
+        time: "09:00 - 09:30",
         type: "Talk",
         title: "Exposé",
-        description: " Exposé scientifique 6 « un thème lié à la santé Numérique et l’IOT »",
-        presenter: null,
+        description: "Exposé Applicatif «»",
+        presenter: "Lado Saha, Etudiant ENSPY",
+        modérateur:"Dr. Mvogo Ahanda",
         hasSlides: false
       },
       {
-        time: "10:40 - 11:00",
+        time: "09:30 - 10:00",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé Applicatif «»",
+        presenter: "Roméo Fouosso, Landry Babatack, Natanael Fetue, Lambou Lontsi; Etudiants UY1",
+        modérateur:"Dr. Mvogo Ahanda",
+        hasSlides: false
+      },
+      
+      {
+        time: "10:00 - 10:30",
+        type: "Talk",
+        title: "Hackathon",
+        description: " Hackathon »",
+        presenter: "Hackatoniens",
+        modérateur:"Pr Tchana, Pr Bromberg, Pr Hagimont",
+        hasSlides: false
+      },
+      {
+        time: "10:30 - 11:00",
         type: "Break",
         title: "Pause-café",
         description: "Pause-café",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
       {
         time: "11:00 - 13:00",
         type: "Talk",
-        title: "Présentation des posters",
-        description: "Présentation des posters (étudiants, jeunes chercheurs) » ",
-        presenter: null,
+        title: "Hackathon",
+        description: " Hackathon",
+        presenter: "Hackatoniens",
+        modérateur:"Pr Tchana, Pr Bromberg, Pr Hagimont",
         hasSlides: false
       },
       {
@@ -246,22 +355,25 @@ const WorkshopSchedule = () => {
         title: "Déjeuner",
         description: "Déjeuner",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
       {
         time: "14:00 - 16:00",
         type: "Talk",
         title: "Hackathon",
-        description: " Hackathon : Présentation, Remise des Prix, Remise des attestations »",
-        presenter: null,
+        description: " Hackathon »",
+        presenter: "Hackatoniens",
+        modérateur:"Pr Tchana, Pr Bromberg, Pr Hagimont",
         hasSlides: false
       },
       {
         time: "16:00 - 17:00",
         type: "Talk",
         title: "Photo de Famille",
-        description: "Photo de Famille, Cocktail & réseautage",
+        description: "Remise des Prix, Remise des attestations Photo de Famille, Cocktail & réseautage",
         presenter: null,
+        modérateur:null,
         hasSlides: false
       },
 
@@ -322,8 +434,12 @@ const WorkshopSchedule = () => {
                     <div className="session-title">{session.title}</div>
                     <div className="session-description">{session.description}</div>
                     {session.presenter && (
-                      <div className="session-presenter">{session.presenter}</div>
+                      <div className="session-presenter"> <b>Speaker:</b> {session.presenter}</div>
                     )}
+                    {session.modérateur && (
+                      <div className="session-presenter"> <b>Moderator:</b>  {session.modérateur}</div>
+                    )}
+                    
                   </div>
                   <div className="table-cell resources-cell">
                     {session.hasSlides && <SlidesButton />}

@@ -19,12 +19,7 @@ const Theme = ({ title, image, problemStatement, overview, techStack, tasks, res
         <h4 className="section-title">Tech stack</h4>
         <p>{techStack}</p> */}
 
-        <h4 className="section-title">Tâches</h4>
-        <ul>
-          {tasks.map((task, index) => (
-            <li key={index}>{task}</li>
-          ))}
-        </ul>
+        
 {/* 
         <h4 className="section-title">Resources</h4>
         <ul>
@@ -37,18 +32,7 @@ const Theme = ({ title, image, problemStatement, overview, techStack, tasks, res
           ))}
         </ul>
 */}
-        <h4 className="section-title">Responsables</h4>
-        <div className="judges-container">
-          {judges.map((judge, index) => (
-            <Judge
-              key={index}
-              image={judge.image}
-              name={judge.name}
-              role={judge.role}
-              organization={judge.organization}
-            />
-          ))}
-        </div>
+        
       </div> 
     </div>
   );

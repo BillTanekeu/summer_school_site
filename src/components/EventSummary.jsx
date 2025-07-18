@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/components/EventSummary.css';
 const EventSummary = () => {
   const handleRegistration = () => {
+    window.open('https://docs.google.com/forms/d/1qNwC5nErmureEKqUXLDUQn7-KitYeBY1RqNh9jxDCrg/edit', '_blank');
+ 
     // Logique d'inscription à implémenter
     console.log('Redirection vers l\'inscription...');
   };
@@ -19,7 +21,7 @@ const EventSummary = () => {
           <p className="event-subtitle">Workshops | Ateliers | Hackathon</p>
           <div className="event-details">
             <span className="event-date">28 - 30 Juillet 2025</span>
-            <span className="event-location">Campus de l'ESTLC, Abam - Sud Cameroun</span>
+            <span className="event-location">Campus de l'ESTLC, Ambam - Sud Cameroun</span>
           </div>
         </div>
 
