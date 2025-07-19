@@ -52,7 +52,7 @@ let coordination = [
   },
   {
     image : david,
-    name:"Pr.David BROMBERG",
+    name:"Pr. David BROMBERG",
     role : "Professeur",
     organization : "Université de Rennes"
   },
@@ -68,70 +68,70 @@ let coordination = [
 let committed = [
   {
     image : mouzong,
-    name:"Pr. MOUZONG PEMI MARCELLIN",
+    name:"Pr. MOUZONG PEMI Marcellin",
     role : "C-CREP",
     organization : "ESTLC"
   },
 
   {
     image : mvogo,
-    name:"Dr. Mvogo Ahanda Joseph J.B",
+    name:"Dr. MVOGO AHANDA Joseph J.B.",
     role : "C-SRC",
     organization : "ESTLC"
   },
   {
     image : drmessi,
-    name:"Dr. Messi Nguele Thomas",
+    name:"Dr. MESSI NGUELE Thomas",
     role : "CD-GI",
     organization : "ESTLC"
   },
   {
     image : mballa,
-    name:"Dr. Mballa Eloundou Aimé Christel",
+    name:"Dr. MBALLA ELOUNDOU Aimé Christel",
     role : "CD-EG,",
     organization : "ESTLC"
   },
   {
     image : sapnken,
-    name:"Dr SAPNKEN FLAVIAN EMMANUEL",
+    name:"Dr. SAPNKEN Flavian Emmanuel",
     role : "CD-GL",
     organization : "ESTLC"
   },
   {
     image : diboma,
-    name:"Dr DIBOMA BENJAMIN SALOMON",
+    name:"Dr. DIBOMA BENJAMIN Salomon",
     role : "CD-GT",
     organization : "ESTLC"
   },
   {
     image : az,
-    name:"M. AZONG TCHITILE EMMANUEL WILFRIED",
+    name:"M. AZONG TCHITILE Emmanuel Wilfried",
     role : "C-SPE",
     organization : "ESTLC"
   },
   {
     image : ewodo,
-    name:"M. EWODO AMOUGOU MARCEL RODRIGUE",
+    name:"M. EWODO AMOUGOU Marcel Rodrigue",
     role : "Enseignant",
     organization : "ESTLC"
   },
   {
     image : prospert,
-    name:"Dr GOPDJIM NOUMO PROSPER",
+    name:"Dr. GOPDJIM NOUMO Prosper",
     role : "Enseignant",
     organization : "ESTLC"
   },
   {
     image : migri,
-    name:"Dr MIGUIRI BLAISE",
+    name:"Dr. MIGUIRI Blaise",
     role : "Enseignant",
     organization : "ESTLC"
   },
 
   {
     image : youmbi,
-    name:"Dr YOUMBI FOUEGO Dorota",
-    role : "Enseignant",
+    name:"Dr. YOUMBI FOUEGO Dorota",
+    role : "Enseignante",
     organization : "ESTLC"
   },
 ];
@@ -149,7 +149,7 @@ const CollaborationSection = () => {
 
 
             <p>
-            La collaboration entre le Cameroun et les partenaires (Grenoble, Rennes, Toulouse)   
+            La collaboration entre l'Université d'Ebolowa et les partenaires Grenoble INP, Toulouse INP, Rennes   
             vise à établir un partenariat scientifique et technologique de long terme, 
             centré sur l’Internet des objets (IoT), les systèmes distribués,
              l’intelligence artificielle (IA) et la sécurité.

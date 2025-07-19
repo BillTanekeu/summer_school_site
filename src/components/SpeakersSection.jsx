@@ -6,6 +6,17 @@ import danielHagimont from '../assets/Prof/daniel_hagimont.jpeg';
 import david from '../assets/Prof/david.jpeg';
 import anne from '../assets/Prof/Anne-Marie-Chana.png';
 import banabe from '../assets/Prof/banabe.jpg';
+import regis from '../assets/Prof/regis.jpeg';
+import wabo from '../assets/Prof/wabo.jpeg';
+import bill from '../assets/Prof/bill.png';
+import valere from '../assets/Prof/valere.png';
+import sapnken from '../assets/Prof/sapnken.jpeg';
+import mvogo from '../assets/Prof/mvogo_jean_baptiste.jpeg';
+import pamoe from '../assets/Prof/pamoe.jpeg';
+import yvan from '../assets/Prof/yvan.png';
+import arsene from '../assets/Prof/arsene.jpeg';
+import zogo from '../assets/Prof/zogo.jpeg';
+import fideline from '../assets/Prof/fideline.jpeg'
 const SpeakersSection = () => {
   const speakers = [
     {
@@ -19,7 +30,7 @@ const SpeakersSection = () => {
     {
       id: 2,
       name: "Pr. David BROMBERG",
-      title: "Professor",
+      title: "Professeur",
       institution: "Université de Rennes",
       avatar: david,
       hasSlides: false
@@ -34,20 +45,188 @@ const SpeakersSection = () => {
     },
     {
       id: 4,
-      name: "Dr. Anne-Marie Chana",
-      title: "Enseignant",
+      name: "Dr. CHANA  Anne-Marie",
+      title: "Enseignante",
       institution: "ENSPY",
       avatar: anne,
       hasSlides: false
     },
     {
       id: 5,
-      name: "Bernabé Batchakui",
+      name: "Pr. BATCHAKUI Bernabé",
       title: "Professeur",
       institution: "ENSPY",
       avatar: banabe,
       hasSlides: false
     },
+    {
+      id: 6,
+      name: "Dr. MVOGO AHANDA Joseph J.B.",
+      title: "C-SRC",
+      institution: "ESTLC",
+      avatar: mvogo,
+      hasSlides: false
+    },
+    {
+      id: 7,
+      name: "Dr. SAPNKEN Flavian Emmanuel",
+      title: "CD-GL",
+      institution: "ESTLC",
+      avatar: sapnken,
+      hasSlides: false
+    },
+    {
+      id: 8,
+      name: "M. PAMOÉ Estebanc",
+      title: "IT",
+      institution: "GIZ",
+      avatar: pamoe,
+      hasSlides: false
+    },
+    {
+      id: 9,
+      name: "Dr. MIGUIRI Blaise",
+      title: "Enseignant",
+      institution: "ESTLC",
+      avatar: null,
+      hasSlides: false
+    },
+
+    {
+      id: 10,
+      name: "M. BAYIHA Samuel",
+      title: "IT",
+      institution: "Ministère des Marchés Publics",
+      avatar: null,
+      hasSlides: false
+    },
+    {
+      id: 11,
+      name: "M. WABO Ghislain",
+      title: "Doctorant",
+      institution: "UY1",
+      avatar: wabo,
+      hasSlides: false
+    },
+    {
+      id: 12,
+      name: "M. MOGO Régis",
+      title: "Doctorant",
+      institution: "UY1",
+      avatar: regis,
+      hasSlides: false
+    },
+    {
+      id: 12,
+      name: "Mlle BANDE Manuela",
+      title: "Master 2",
+      institution: "UY1",
+      avatar: null,
+      hasSlides: false
+    },
+    {
+      id: 13,
+      name: "M. TANEKEU Bill Jordan",
+      title: "Master 2",
+      institution: "UY1",
+      avatar: bill,
+      hasSlides: false
+    },
+    {
+      id: 14,
+      name: "M. KAPTCHOUANG Yvan",
+      title: "Master 2",
+      institution: "UY1",
+      avatar: yvan,
+      hasSlides: false
+    },
+    {
+      id: 15,
+      name: "M. ARSENE TAYO Abichaï",
+      title: "Master 2",
+      institution: "ENSPY",
+      avatar: arsene,
+      hasSlides: false
+    },
+    
+    {
+      id: 16,
+      name: "M. NDEUGA Mérimé",
+      title: "Master 2",
+      institution: "UD",
+      avatar: null,
+      hasSlides: false
+    },
+
+    {
+      id: 17,
+      name: "M. DAHA Marc",
+      title: "Etudiant",
+      institution: "ESTLC",
+      avatar: null,
+      hasSlides: false
+    },
+    {
+      id: 18,
+      name: "TONDJI  Andrea",
+      title: "Etudiant",
+      institution: "ESTLC",
+      avatar: null,
+      hasSlides: false
+    },
+
+    {
+      id: 19,
+      name: "TAMWO FEUWO Franck",
+      title: "Master 2",
+      institution: "UY1",
+      avatar: valere,
+      hasSlides: false
+    },
+    {
+      id: 20,
+      name: "M. ETOA NZOM Simon",
+      title: "Etudiant",
+      institution: "UY1",
+      avatar: null,
+      hasSlides: false
+    },
+    {
+      id: 21,
+      name: "M. ZOGO ABOUMA Achaire",
+      title: "Etudiant",
+      institution: "UY1",
+      avatar: zogo,
+      hasSlides: false
+    },
+    
+    {
+      id: 22,
+      name: "NGOUFACK Fideline",
+      title: "Master 2",
+      institution: "UY1",
+      avatar: fideline,
+      hasSlides: false
+    },
+    
+    {
+      id: 24,
+      name: "LADO Saha",
+      title: "Etudiant",
+      institution: "ENSPY",
+      avatar: null,
+      hasSlides: false
+    },
+        
+    {
+      id: 25,
+      name: "M. NJANKO Yvan",
+      title: "Etudiant",
+      institution: "UY1",
+      avatar: null,
+      hasSlides: false
+    },
+    
     
   ];
 

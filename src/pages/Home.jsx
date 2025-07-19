@@ -9,7 +9,7 @@ import NavBar from '../components/NavBar.jsx';
 import SponsorsList from "../components/SponsorList.jsx";
 const Home = () => {
   return (
-    <>
+    <div className="container">
      <Header/>
         <NavBar />
         <EventSummary />
@@ -21,7 +21,7 @@ const Home = () => {
         </h2>
         <SponsorsList />
       <Footer/>
-    </>
+    </div>
   
   );
 }

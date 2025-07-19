@@ -42,3 +42,68 @@
     color: #555;
   }
   
+
+  .gallery-section {
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    width: 90%;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .section-title h1 {
+    font-size: 2.5rem;
+    color: #283c63;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .section-title h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background-color: #89afd6;
+  }
+  
+  .section-content {
+    width: 100%;
+  }
+  
+  /* Style spécifique pour la section hôtel */
+  .hotel-section {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .section-description{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .gallery-section {
+      padding: 2rem 1rem;
+    }
+  
+    .section-title h1 {
+      font-size: 2rem;
+    }
+  }

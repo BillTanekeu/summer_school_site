@@ -18,6 +18,7 @@ import idex from '../assets/idex.png';
 import persyval from '../assets/persyval.png'
 import UR from '../assets/univRenne.png';
 import ToulouseINP from '../assets/toulouseINP.png';
+import irit from '../assets/irit.png';
 import '../styles/components/Sponsor.css';
 
 const sponsors = [
@@ -67,6 +68,11 @@ const sponsors = [
     name: "persyval Lab",
     image: persyval,
     link: "https://persyval.univ-grenoble-alpes.fr/"  
+  },
+  {
+    name: "Institut de Recherche en Informatique de Toulouse",
+    image: irit,
+    link: "https://www.irit.fr/"  
   },
   
   

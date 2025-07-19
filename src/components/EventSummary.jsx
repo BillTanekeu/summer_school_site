@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/components/EventSummary.css';
+import RegisterButton from './RegisterButton';
 const EventSummary = () => {
   const handleRegistration = () => {
     window.open('https://docs.google.com/forms/d/1qNwC5nErmureEKqUXLDUQn7-KitYeBY1RqNh9jxDCrg/edit', '_blank');
@@ -26,14 +27,22 @@ const EventSummary = () => {
         </div>
 
         <div className="event-description">
-          <p>
+          <button className="glitter-button" onClick={handleRegistration}>
+            <svg viewBox="0 0 24 24" className="btn-icon">
+              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+            </svg>
+            S'enregistrer à l'événement
+          </button>
+          <p style={{marginTop: 35 + 'px'}}>
             Rejoignez-nous pour un événement innovant dédié à l'exploration des technologies émergentes 
-            dans le secteur de la santé. Découvrez comment l'Internet des Objets (IoT) transforme les 
+            dans le secteur de la santé et de la logistique. Découvrez comment l'Internet des Objets (IoT) transforme les 
             soins de santé et favorise la collaboration entre le monde académique, les entreprises et 
             les institutions publiques.
           </p>
+          
         </div>
-
+        
+     
         <div className="event-objectives">
           <h2>Objectifs Principaux</h2>
           <div className="objectives-grid">
