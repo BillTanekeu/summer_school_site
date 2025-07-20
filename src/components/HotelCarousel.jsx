@@ -24,82 +24,10 @@ import Saint_Francois_Pic_4 from "../assets/logement_pic_ambam/Saint_Francois_Pi
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import '../styles/components/style_galerie.css';
 
-const Hotel =[{
-    name:"BIBI HOTEL",
-    images:[Bibi_Pic_1,Bibi_Pic_2,Bibi_Pic_3,Bibi_Pic_4],
-    capaciteChambre:8,
-    capaciteStudio:null,
-    capaciteAppartement:null,
-    prixChambre:"5000 FCFA/ nuitée",
-    prixStudio:null,
-    prixAppartement:null,
-    contact:null,
-},
-{
-    name:"ESCAPADE HOTEL",
-    images:[Escapade_Pic_1,Escapade_Pic_2,Escapade_Pic_3],
-    capaciteChambre:37,
-    capaciteStudio:null,
-    capaciteAppartement:null,
-    prixChambre:"15000/18000 FCFA / nuitée",
-    prixStudio:null,
-    prixAppartement:null,
-    contact:"(+237) 698018167"
-},
-{
-    name:"FLEUR DE LYS HOTEL",
-    images:[Fleur_Lys_1,Fleur_Lys_2,Fleur_Lys_3,Fleur_Lys_4],
-    capaciteChambre:15,
-    capaciteStudio:null,
-    capaciteAppartement:null,
-    prixChambre:"15000 FCFA / nuitée",
-    prixStudio:null,
-    prixAppartement:null,
-    contact:"(+237) 655791244"
-},
-{
-    name:"MADELEINE HOTEL",
-    images:[Hotel_Monde_Pic_1,Hotel_Monde_Pic_2,Hotel_Monde_Pic_3],
-    capaciteChambre:15,
-    capaciteStudio:null,
-    capaciteAppartement:null,
-    prixChambre:"10000/15000 FCFA / nuitée",
-    prixStudio:null,
-    prixAppartement:null,
-    contact:"(+237) 691702221"
-},
-{
-    name:"SAINT-FRANCOIS HOTEL",
-    images:[Madeleine_Pic_1,Madeleine_Pic_2,Madeleine_Pic_3,Madeleine_Pic_4],
-    capaciteChambre:4,
-    capaciteStudio:4,
-    capaciteAppartement:1,
-    prixChambre:"20000 FCFA / nuitée",
-    prixStudio:"20000 FCFA / nuitée",
-    prixAppartement:"50000 FCFA / nuitée",
-    contact:"(+237) 692297682"
-},
-{
-    name:"HOTEL DU MONDE",
-    images:[Saint_Francois_Pic_1,Saint_Francois_Pic_2,Saint_Francois_Pic_3,Saint_Francois_Pic_4],
-    capaciteChambre:13,
-    capaciteStudio:null,
-    capaciteAppartement:null,
-    prixChambre:"10000 FCFA / nuitée(chambres climatisées) \n 20000 FCFA / nuitée(chambres climatisées)",
-    prixStudio:null,
-    prixAppartement:null,
-    contact:"(+237) 690656196"
-},
-];
 
 const HotelCarousel = () => {
     const hotels = [
-      {
-        name: "BIBI HOTEL",
-        images: [Bibi_Pic_1, Bibi_Pic_2, Bibi_Pic_3, Bibi_Pic_4],
-        capaciteChambre: 8,
-        prixChambre: "5000 FCFA/ nuitée",
-      },
+     
       {
         name: "ESCAPADE HOTEL",
         images: [Escapade_Pic_1, Escapade_Pic_2, Escapade_Pic_3],
@@ -115,14 +43,14 @@ const HotelCarousel = () => {
         contact: "(+237) 655791244",
       },
       {
-        name: "MADELEINE HOTEL",
+        name: "HOTEL LE MONDE",
         images: [Hotel_Monde_Pic_1, Hotel_Monde_Pic_2, Hotel_Monde_Pic_3],
         capaciteChambre: 15,
         prixChambre: "10000/15000 FCFA / nuitée",
         contact: "(+237) 691702221",
       },
       {
-        name: "SAINT-FRANCOIS HOTEL",
+        name: "MADELEINE HOTEL",
         images: [Madeleine_Pic_1, Madeleine_Pic_2, Madeleine_Pic_3, Madeleine_Pic_4],
         capaciteChambre: 4,
         capaciteStudio: 4,
@@ -133,12 +61,18 @@ const HotelCarousel = () => {
         contact: "(+237) 692297682",
       },
       {
-        name: "HOTEL DU MONDE",
+        name: "SAINT-FRANCOIS HOTEL",
         images: [Saint_Francois_Pic_1, Saint_Francois_Pic_2, Saint_Francois_Pic_3, Saint_Francois_Pic_4],
         capaciteChambre: 13,
         prixChambre:
           "10000 FCFA / nuitée(chambres climatisées)\n20000 FCFA / nuitée(chambres climatisées)",
         contact: "(+237) 690656196",
+      },
+      {
+        name: "BIBI HOTEL",
+        images: [Bibi_Pic_1, Bibi_Pic_2, Bibi_Pic_3, Bibi_Pic_4],
+        capaciteChambre: 8,
+        prixChambre: "5000 FCFA/ nuitée",
       },
     ];
   

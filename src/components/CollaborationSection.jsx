@@ -182,7 +182,7 @@ const CollaborationSection = () => {
           <div className="image-container">
             <div className="workshop-header">
               <div className="workshop-title">Workshops | Ateliers | Hackathon</div>
-              <div className="workshop-subtitle">28 - 30 July 2025| Campus de l’ESTLC, Abam – Sud Cameroun</div>
+              <div className="workshop-subtitle">28 - 30 July 2025| Campus de l’ESTLC, Ambam – Sud Cameroun</div>
             </div>
             
             <div className="sponsors-section">

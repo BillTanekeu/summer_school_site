@@ -17,6 +17,8 @@ import yvan from '../assets/Prof/yvan.png';
 import arsene from '../assets/Prof/arsene.jpeg';
 import zogo from '../assets/Prof/zogo.jpeg';
 import fideline from '../assets/Prof/fideline.jpeg'
+import migri from '../assets/Prof/migri.jpeg';
+import bande from '../assets/Prof/bande.jpg';
 const SpeakersSection = () => {
   const speakers = [
     {
@@ -88,7 +90,7 @@ const SpeakersSection = () => {
       name: "Dr. MIGUIRI Blaise",
       title: "Enseignant",
       institution: "ESTLC",
-      avatar: null,
+      avatar: migri,
       hasSlides: false
     },
 
@@ -121,7 +123,7 @@ const SpeakersSection = () => {
       name: "Mlle BANDE Manuela",
       title: "Master 2",
       institution: "UY1",
-      avatar: null,
+      avatar: bande,
       hasSlides: false
     },
     {
@@ -223,6 +225,14 @@ const SpeakersSection = () => {
       name: "M. NJANKO Yvan",
       title: "Etudiant",
       institution: "UY1",
+      avatar: null,
+      hasSlides: false
+    },
+    {
+      id: 26,
+      name: "Dr. NGUEMA Nave",
+      title: "Pharmacien",
+      institution: "Docteur en Pharmacie",
       avatar: null,
       hasSlides: false
     },

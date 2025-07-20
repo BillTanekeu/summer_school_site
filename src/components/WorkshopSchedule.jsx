@@ -44,7 +44,7 @@ const WorkshopSchedule = () => {
         type: "Talk",
         title: "Exposé",
         description: "Exposé Scientifique 1 « Nécessité du numérique pour une santé inclusive » ",
-        presenter: " ",
+        presenter: "Dr. NGUEMA Nave",
         modérateur:"Dr. MBALLA ELOUNDOU Aimé Christel",
         hasSlides: false
       },
@@ -70,7 +70,7 @@ const WorkshopSchedule = () => {
         time: "11:30 - 12:15",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé Scientifique 3 « Robotique médical et IOT, enjeux et perspectives »",
+        description: "Exposé Scientifique 3 « La robotique dans les soins de santé : une perspective de l'Internet des objets robotiques médicaux (IoMRT)»",
         presenter: "Dr. MVOGO AHANDA Joseph J.B.",
         modérateur:"Dr. MBALLA ELOUNDOU Aimé Christel",
         hasSlides: false
@@ -158,7 +158,7 @@ const WorkshopSchedule = () => {
         time: "09:00 - 09:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 7 « Nécessité du numérique pour une santé inclusive»",
+        description: "Exposé scientifique 7 «IA au cœur de la métaphore éducative»",
         presenter: "Pr. BATCHAKUI Bernabé",
         modérateur:"Dr. GOPDJIM NOUMO Prosper",
         hasSlides: false
@@ -241,7 +241,7 @@ const WorkshopSchedule = () => {
         time: "15:00 - 15:20",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 13 «GNN frugal pour la détection du VIH»",
+        description: "Exposé scientifique 13 «GNN frugal parallèl»",
         presenter: "M. KAPTCHOUANG Yvan",
         modérateur:"M. EWODO AMOUGOU Marcel",
         hasSlides: false
