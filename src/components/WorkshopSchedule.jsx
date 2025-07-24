@@ -141,7 +141,7 @@ const WorkshopSchedule = () => {
         title: "Synthèse",
         description: "Synthèse de la journée",
         presenter: null,
-        modérateur:"MIGUIRI Blaise, Assistant, ESTLC, Université d'Ebolowa",
+        modérateur:"GOPDJIM NOUMO Prosper, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
 
@@ -286,7 +286,7 @@ const WorkshopSchedule = () => {
         title: "Synthèse",
         description: "Synthèse de la journée",
         presenter: null,
-        modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
+        modérateur:"MIGUIRI Blaise, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
 
