@@ -19,6 +19,7 @@ import zogo from '../assets/Prof/zogo.jpeg';
 import fideline from '../assets/Prof/fideline.jpeg'
 import migri from '../assets/Prof/migri.jpeg';
 import bande from '../assets/Prof/bande.jpg';
+import djeuga from '../assets/Prof/djeuga.jpg';
 const SpeakersSection = () => {
   const speakers = [
     {
@@ -156,7 +157,7 @@ const SpeakersSection = () => {
       name: "M. NDEUGA Mérimé",
       title: "Master 2",
       institution: "UD",
-      avatar: null,
+      avatar: djeuga,
       hasSlides: false
     },
 

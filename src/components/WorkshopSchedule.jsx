@@ -199,7 +199,7 @@ const WorkshopSchedule = () => {
         time: "11:00 - 11:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé Scientifique 13 « ...» ",
+        description: "Exposé Scientifique 13 «Des Systèmes d'Exploitation à la Suprématie du Cloud : Voyage à Travers le Temps» ",
         presenter: "David BROMBERG, Professeur, Université de Rennes",
         modérateur:"MBALLA ELOUNDOU Aimé Christel, Chargé de Cours, ESTLC, Université d'Ebolowa",
         hasSlides: false
