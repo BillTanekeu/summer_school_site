@@ -20,6 +20,7 @@ import fideline from '../assets/Prof/fideline.jpeg'
 import migri from '../assets/Prof/migri.jpeg';
 import bande from '../assets/Prof/bande.jpg';
 import djeuga from '../assets/Prof/djeuga.jpg';
+import mballa from '../assets/Prof/mballa.png';
 const SpeakersSection = () => {
   const speakers = [
     {
@@ -72,10 +73,10 @@ const SpeakersSection = () => {
     },
     {
       id: 7,
-      name: "Dr. SAPNKEN Flavian Emmanuel",
-      title: "CD-GL",
+      name: "Dr. MBALLA ELOUNDOU Aimé Christel",
+      title: "CD-EG",
       institution: "ESTLC",
-      avatar: sapnken,
+      avatar: mballa,
       hasSlides: false
     },
     {
