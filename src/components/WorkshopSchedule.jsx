@@ -13,52 +13,44 @@ const WorkshopSchedule = () => {
   const scheduleData = {
     0: [
       {
-        time: "07:30 - 08:30",
+        time: "07:30 - 09:00",
         type: "Break",
         title: "",
-        description: "Café matinal",
+        description: "Café matinal, accueil des participants et installation",
         presenter: null,
         modérateur:null,
         hasSlides: false
       },
-      {
-        time: "08:30 - 09:00",
-        type: "Talk",
-        title: "Accueil",
-        description: "Accueil des participants et installation",
-        presenter: null,
-        modérateur:null,
-        hasSlides: false
-      },
+    
       {
         time: "09:00 - 09:30",
         type: "Talk",
         title: "Allocution",
-        description: "Allocution d’ouverture de Monsieur le Recteur de l’UEb ou de Monsieur le Directeur de l'ESTLC",
-        presenter: "Pr. ETOA ETOA Jean Bosco / Pr. TAMBA Jean Gaston",
+        description: "Allocution d'ouverture de Monsieur le Recteur de l’UEb ou de Monsieur le Directeur de l'ESTLC",
+        presenter: "ETOA ETOA Jean Bosco, Professeur, Université d'Ebolowa / TAMBA Jean Gaston, Professeur, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
       
       {
-        time: "09:30 - 10:15",
+        time: "09:30 - 10:00",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé Scientifique 1 « Nécessité du numérique pour une santé inclusive » ",
-        presenter: "Dr. NGUEMA Nave",
-        modérateur:"Dr. MBALLA ELOUNDOU Aimé Christel",
+        description: "Exposé Scientifique 1 « Enjeux et opportunités de la santé numérique » ",
+        presenter: "David BROMBERG, Professeur, Université de Rennes",
+        modérateur:"MBALLA ELOUNDOU Aimé Christel, Chargé de Cours, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
       {
-        time: "10:15 - 11h00",
+        time: "10:00 - 10h30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé Scientifique 2 « Enjeux et opportunités de la santé numérique » ",
-        presenter: "Pr. David BROMBERG",
-        modérateur:"Dr. MBALLA ELOUNDOU Aimé Christel",
+       description: "Exposé Scientifique 2 « Nécessité du numérique pour une santé inclusive » ",
+        presenter: "NGUEMA Nave, Docteur en Pharmacie, Pharmacie des trois frontières, Ambam",
+        modérateur:"MBALLA ELOUNDOU Aimé Christel, Chargé de Cours, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
       {
-        time: "11:00 - 11:30",
+        time: "10:30 - 11:00",
         type: "Break",
         title: "Pause-café",
         description: "Pause-café",
@@ -67,16 +59,36 @@ const WorkshopSchedule = () => {
         hasSlides: false
       },
       {
-        time: "11:30 - 12:15",
+        time: "11:00 - 11:30",
         type: "Talk",
         title: "Exposé",
         description: "Exposé Scientifique 3 « La robotique dans les soins de santé : une perspective de l'Internet des objets robotiques médicaux (IoMRT)»",
-        presenter: "Dr. MVOGO AHANDA Joseph J.B.",
-        modérateur:"Dr. MBALLA ELOUNDOU Aimé Christel",
+        presenter: "MVOGO AHANDA Joseph J.B.,Chargé de Cours, Université d'Ebolowa",
+        modérateur:"MBALLA ELOUNDOU Aimé Christel, Chargé de Cours, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
       {
-        time: "12:15 - 14:00",
+        time: "11:30 - 12:00",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 4 « Contextual optimization of a ML model for an embedded system »",
+        presenter: "Daniel HAGIMONT, Professeur, INP Toulouse",
+        modérateur:"YOUMBI FOUEGO Dorota, Assistant, ESTLC, Université d'Ebolowa",
+        hasSlides: false
+      },
+      {
+        time: "12:00 - 12:30",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 5 « Le numérique au service du droit à la santé au Cameroun : Regard croisé avec les expériences étrangères  »",
+        presenter: "MBALLA ELOUNDOU Aimé Christel, Chargé de Cours, ESTLC, Université d'Ebolowa",
+        modérateur:"YOUMBI FOUEGO Dorota, Assistant, ESTLC, Université d'Ebolowa",
+        hasSlides: false
+      },
+  
+      
+      {
+        time: "12:30 - 14:30",
         type: "break",
         title: "Déjeuner",
         description: "Déjeuner",
@@ -84,60 +96,59 @@ const WorkshopSchedule = () => {
         modérateur:null,
         hasSlides: false
       },
-
       {
-        time: "14:00 - 14:45",
+        time: "14:30 - 14:50",
+        type: "Talk",
+        title: "Exposé Applicatif",
+        description: "Exposé scientifique 6 « Interopérabilité des solutions eHealth »",
+        presenter: "PAMOE Estebanc, IT, GIZ",
+        modérateur:"YOUMBI FOUEGO Dorota, Assistant, ESTLC, Université d'Ebolowa",
+        hasSlides: false
+      },
+      {
+        time: "14:50 - 15:10",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 4 « Système d'exploitation pour Objets connectés »",
-        presenter: null,
-        modérateur:"Dr. YOUMBI FOUEGO Dorota",
+        description: "Exposé scientifique 7 « Apprentissage de graphes pour la recommendation personnalisée de traitements à partir de dossiers patients »",
+        presenter: "WABO Ghislain, Doctorant, UY1",
+        modérateur:"YOUMBI FOUEGO Dorota, Assistant, ESTLC,  Université d'Ebolowa",
+        hasSlides: false
+      },
+      
+       {
+        time: "15:10 - 15:30",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 8 « Usage des techniques de machine learning pour la réduction du temps d'exécution » ",
+        presenter: "MOGO Régis, Doctorant, UY1",
+        modérateur:"GOPDJIM NOUMO Prosper, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
 
       {
-        time: "14:45 - 15:30",
+        time: "15:30 - 15:50",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 5 « Réduction de la consommation energétique dans l'usage des systèmes IOT »",
-        presenter:"Dr. SAPNKEN Flavian Emmanuel",
-        modérateur:"Dr. YOUMBI FOUEGO Dorota",
-        hasSlides: false
-      },
-      {
-        time: "15:30 - 16:00",
-        type: "Talk",
-        title: "Exposé applicatif",
-        description: " l’interopérabilité des solutions eHealth ",
-        presenter: "M. PAMOÉ Estebanc",
-        modérateur:"Dr. YOUMBI FOUEGO Dorota",
+        description: " Exposé scientifique 9 « Apprentissage par renforcement frugal pour le Diagnostic des maladies »",
+        presenter: "TANEKEU Bill Jordan, Doctorant, UY1",
+        modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
       
       {
-        time: "16:00 - 16:30",
-        type: "Talk",
-        title: "Hackathon ",
-        description: "Hackathon « Présentation des thèmes et des équipes du Hackathon »",
-        presenter: "Dr. MIGUIRI Blaise",
-        modérateur:"Dr. YOUMBI FOUEGO Dorota",
-        hasSlides: false
-      },
-      {
-        time: "16:30 - 17:00",
+        time: "15:50 - 16:20",
         type: "Talk",
         title: "Synthèse",
         description: "Synthèse de la journée",
         presenter: null,
-        modérateur:"Dr. MIGUIRI Blaise",
+        modérateur:"MIGUIRI Blaise, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
-
 
     ],
     1: [
       {
-        time: "07:30 - 08:30",
+        time: "07:30 - 09:00",
         type: "Break",
         title: "",
         description: "Café matinal",
@@ -146,42 +157,34 @@ const WorkshopSchedule = () => {
         hasSlides: false
       },
       {
-        time: "08:30 - 09:00",
-        type: "Talk",
-        title: "Exposé",
-        description: "Exposé scientifique 6 «GreenFaas: Carbon-Aware, Cooperative, and Cost-Incentive Graceful Degradation Framework for Function-as-a-Service (FaaS)»",
-        presenter: "Pr. Alain TCHANA",
-        modérateur:"Dr. GOPDJIM NOUMO Prosper",
-        hasSlides: false
-      },
-      {
         time: "09:00 - 09:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 7 «IA au cœur de la métaphore éducative»",
-        presenter: "Pr. BATCHAKUI Bernabé",
-        modérateur:"Dr. GOPDJIM NOUMO Prosper",
+        description: "Exposé scientifique 10 «GreenFaas: Carbon-Aware, Cooperative, and Cost-Incentive Graceful Degradation Framework for Function-as-a-Service (FaaS)»",
+        presenter: "Alain TCHANA, Professeur, Grenoble INP-UGA",
+        modérateur:"GOPDJIM NOUMO Prosper, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
       {
-        time: "09:30 - 10:00",
+        time: "09:30 - 10h00",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 8 « Nécessité du numérique pour une santé inclusive»",
-        presenter: "Dr. CHANA Anne Marie",
-        modérateur:"Dr. GOPDJIM NOUMO Prosper",
+        description: "Exposé scientifique 11 «IA au cœur de la métaphore éducative»",
+        presenter: "BATCHAKUI Bernabé, Professeur, ENSPY",
+        modérateur:"GOPDJIM NOUMO Prosper, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
-
+       
       {
         time: "10:00 - 10:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé Applicatif « »",
-        presenter: "M. BAYIHA Samuel",
-        modérateur:"Dr GOPDJIM NOUMO Prosper",
+        description: "Exposé scientifique 12 « IOT & IA au service du développement durable : Santé et Agriculture»",
+        presenter: "CHANA Anne Marie, Chargé de Cours, ENSPY",
+        modérateur:"GOPDJIM NOUMO Prosper, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
+
       {
         time: "10:30 - 11:00",
         type: "Break",
@@ -191,27 +194,37 @@ const WorkshopSchedule = () => {
         modérateur:null,
         hasSlides: false
       },
+
       {
         time: "11:00 - 11:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 9 « Apprentissage de graphes pour la recommendation personnalisée de traitements à partir de dossiers patients » ",
-        presenter: "M. WABO Ghislain",
-        modérateur:"Dr. GOPDJIM NOUMO Prosper",
+        description: "Exposé Scientifique 13 « ...» ",
+        presenter: "David BROMBERG, Professeur, Université de Rennes",
+        modérateur:"MBALLA ELOUNDOU Aimé Christel, Chargé de Cours, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
       {
-        time: "11:30 - 12:00",
+        time: "11:30 - 11:50",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 10 « Usage des techniques de machine learning pour la réduction du temps d'exécution » ",
-        presenter: "M. MOGO Régis",
-        modérateur:"Dr GOPDJIM NOUMO Prosper",
+        description: "Exposé scientifique 14 «GNN frugal parallèl»",
+        presenter: "KAPTCHOUANG Yvan, Doctorant, UY1",
+        modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
-      
       {
-        time: "12:00 - 14:00",
+        time: "11:50 - 12:10",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 15 «Parallélisation du Quasy-Newton sur architecture multi-coeur»",
+        presenter: "ARSENE TAYO Abichaï, Doctorant, ENSPY, UY1",
+        modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
+        hasSlides: false
+      },
+
+      {
+        time: "12:10 - 14:10",
         type: "Break",
         title: "Déjeuner",
         description: "Déjeuner",
@@ -219,95 +232,68 @@ const WorkshopSchedule = () => {
         modérateur:null,
         hasSlides: false
       },
-      {
-        time: "14:00 - 14:30",
-        type: "Talk",
-        title: "Exposé",
-        description: " Exposé Scientifique 11 « »",
-        presenter: "Mlle BANDE Manuela",
-        modérateur:"M. EWODO AMOUGOU Marcel",
-        hasSlides: false
-      },
-      {
-        time: "14:30 - 15:00",
-        type: "Talk",
-        title: "Exposé",
-        description: " Exposé scientifique 12 « Apprentissage par renforcement frugal pour le Diagnostic des maladies »",
-        presenter: "M. TANEKEU Bill Jordan",
-        modérateur:"M. EWODO AMOUGOU Marcel",
-        hasSlides: false
-      },
-      {
-        time: "15:00 - 15:20",
-        type: "Talk",
-        title: "Exposé",
-        description: "Exposé scientifique 13 «GNN frugal parallèl»",
-        presenter: "M. KAPTCHOUANG Yvan",
-        modérateur:"M. EWODO AMOUGOU Marcel",
-        hasSlides: false
-      },
 
       {
-        time: "15:20 - 15:40",
+        time: "14:10 - 14:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 14 «Parallélisation du Quasy-Newton sur architecture multi-coeur»",
-        presenter: "M. ARSENE TAYO Abichaï",
-        modérateur:"M. EWODO AMOUGOU Marcel",
-        hasSlides: false
-      },
-
-      {
-        time: "15:40 - 16:00",
-        type: "Talk",
-        title: "Exposé",
-        description: "Exposé Applicatif «»",
-        presenter: "M. NDEUGA Mérimé",
-        modérateur:"M. EWODO AMOUGOU Marcel",
-        hasSlides: false
-      },
-      {
-        time: "16:00 - 16:20",
-        type: "Talk",
-        title: "Exposé",
-        description: "Exposé Applicatif «Plateforme de collecte de fond à l’ESTLC»",
+        description: "Exposé Applicatif «Plateforme de collecte de fond à l'ESTLC»",
         presenter: "DAHA Marc et TONDJI  Andrea",
-        modérateur:"M. EWODO AMOUGOU Marcel",
+        modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
 	  {
-        time: "16:20 - 16:40",
+        time: "14:30 - 14:50",
         type: "Talk",
         title: "Exposé",
         description: "Exposé Applicatif «API de Paiement Autonome»",
-        presenter: "M. NJANKO Yvan et M. ETOA NZOM Simon",
-        modérateur:"M. EWODO AMOUGOU MARCEL",
+        presenter: "NJANKO Yvan et M. ETOA NZOM Simon, Doctorant, UY1",
+        modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
       {
-        time: "16:40 - 17:00",
+        time: "14:50 - 15:10",
         type: "Talk",
         title: "Exposé",
         description: "Exposé Applicatif «Plateforme IAAS Firecracker»",
-        presenter: "M. ZOGO ABOUMA Achaire",
-        modérateur:"M. EWODO AMOUGOU Marcel",
+        presenter: "ZOGO ABOUMA Achaire, Doctorant, UY1",
+        modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
+      {
+        time: "15:10 - 15:30",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 16 «Protection des données personnelles et RGPD: étude des risque liés aux cookies  et au DOM storage dans les application web»",
+        presenter: "GOUFACK Fideline et TAMWO FEUWO Franck, Doctorant, ENSPY, UY1",
+        modérateur:"YOUMBI FOUEGO Dorota, Assistant, ESTLC, Université d'Ebolowa",
+        hasSlides: false
+      },
+      {
+        time: "15:30 - 16:00",
+        type: "Talk",
+        title: "«Hackathon »",
+        description: "Hackathon « Présentation des thèmes et des équipes du Hackathon »",
+        presenter: "MIGUIRI Blaise, Assistant, Université d'Ebolowa",
+        modérateur:"YOUMBI FOUEGO Dorota, Assistant, ESTLC, Université d'Ebolowa",
+        hasSlides: false
+      },
+  
 
       {
-        time: "17:00 - 17:30",
+        time: "16:00 - 16:30",
         type: "Talk",
         title: "Synthèse",
         description: "Synthèse de la journée",
         presenter: null,
-        modérateur:"M. EWODO AMOUGOU Marcel",
+        modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
 
     ],
     2: [
       {
-        time: "07:30 - 08:30",
+        time: "07:30 - 09:00",
         type: "Break",
         title: "",
         description: "Café matinal",
@@ -316,29 +302,10 @@ const WorkshopSchedule = () => {
         hasSlides: false
       },
       {
-        time: "08:30 - 09:00",
-        type: "Talk",
-        title: "Exposé",
-        description: "Exposé Scientifique  «Protection des données personnelles et RGPD : étude des risques liés aux cookies et au DOM Storage dans les applications web. »",
-        presenter: "NGOUFACK Fideline et TAMWO FEUWO Franck",
-        modérateur:"Dr. MVOGO AHANDA Joseph J.B.",
-        hasSlides: false
-      },
-      {
-        time: "09:00 - 09:30",
-        type: "Talk",
-        title: "Exposé",
-        description: "Exposé Applicatif «»",
-        presenter: "LADO Saha",
-        modérateur:"Dr. MVOGO AHANDA Joseph J.B.",
-        hasSlides: false
-      },
-      
-      {
-        time: "09:30 - 10:30",
+        time: "09:00 - 10:30",
         type: "Talk",
         title: "Hackathon",
-        description: " Hackathon »",
+        description: "«Hackathon »",
         presenter: "Hackatoniens",
         modérateur:"Pr. Alain TCHANA, Pr. David BROMBERG, Pr. Daniel HAGIMONT",
         hasSlides: false
@@ -352,17 +319,18 @@ const WorkshopSchedule = () => {
         modérateur:null,
         hasSlides: false
       },
+      
       {
-        time: "11:00 - 13:00",
+        time: "11:00 - 12:30",
         type: "Talk",
         title: "Hackathon",
-        description: " Hackathon »",
+        description: "« Hackathon »",
         presenter: "Hackatoniens",
         modérateur:"Pr. Alain TCHANA, Pr. David BROMBERG, Pr. Daniel HAGIMONT",
         hasSlides: false
       },
       {
-        time: "13:00 - 14:00",
+        time: "12:30 - 14:00",
         type: "Break",
         title: "Déjeuner",
         description: "Déjeuner",
@@ -370,11 +338,12 @@ const WorkshopSchedule = () => {
         modérateur:null,
         hasSlides: false
       },
+      
       {
         time: "14:00 - 16:00",
         type: "Talk",
-        title: "Hackathon",
-        description: " Hackathon »",
+        title: "Evaluation",
+        description: "Fin du Hackaton et Evaluation",
         presenter: "Hackatoniens",
         modérateur:"Pr. Alain TCHANA, Pr. David BROMBERG, Pr. Daniel HAGIMONT",
         hasSlides: false
