@@ -71,7 +71,7 @@ const WorkshopSchedule = () => {
         time: "11:30 - 12:00",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 4 « Contextual optimization of a ML model for an embedded system »",
+        description: "Exposé scientifique 4 « Contextual Optimization of a Machine Learning Model for an Embedded System »",
         presenter: "Daniel HAGIMONT, Professeur, INP Toulouse",
         modérateur:"YOUMBI FOUEGO Dorota, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
@@ -134,6 +134,15 @@ const WorkshopSchedule = () => {
         modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
+      {
+        time: "15:50 - 16:10",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 10 « ODB (On Demand Buffer) »",
+        presenter: "BANDE Manuella, Doctorant, UY1",
+        modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
+        hasSlides: false
+      },
       
       {
         time: "15:50 - 16:20",
@@ -160,7 +169,7 @@ const WorkshopSchedule = () => {
         time: "09:00 - 09:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 10 «GreenFaas: Carbon-Aware, Cooperative, and Cost-Incentive Graceful Degradation Framework for Function-as-a-Service (FaaS)»",
+        description: "Exposé scientifique 11 «GreenFaas: Carbon-Aware, Cooperative, and Cost-Incentive Graceful Degradation Framework for Function-as-a-Service (FaaS)»",
         presenter: "Alain TCHANA, Professeur, Grenoble INP-UGA",
         modérateur:"GOPDJIM NOUMO Prosper, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
@@ -169,7 +178,7 @@ const WorkshopSchedule = () => {
         time: "09:30 - 10h00",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 11 «IA au cœur de la métaphore éducative»",
+        description: "Exposé scientifique 12 «IA au cœur de la métaphore éducative»",
         presenter: "BATCHAKUI Bernabé, Professeur, ENSPY",
         modérateur:"GOPDJIM NOUMO Prosper, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
@@ -179,7 +188,7 @@ const WorkshopSchedule = () => {
         time: "10:00 - 10:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 12 « IOT & IA au service du développement durable : Santé et Agriculture»",
+        description: "Exposé scientifique 13 « IOT & IA au service du développement durable : Santé et Agriculture»",
         presenter: "CHANA Anne Marie, Chargé de Cours, ENSPY",
         modérateur:"GOPDJIM NOUMO Prosper, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
@@ -199,7 +208,7 @@ const WorkshopSchedule = () => {
         time: "11:00 - 11:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé Scientifique 13 «Des Systèmes d'Exploitation à la Suprématie du Cloud : Voyage à Travers le Temps» ",
+        description: "Exposé Scientifique 14 «Des Systèmes d'Exploitation à la Suprématie du Cloud : Voyage à Travers le Temps» ",
         presenter: "David BROMBERG, Professeur, Université de Rennes",
         modérateur:"MBALLA ELOUNDOU Aimé Christel, Chargé de Cours, ESTLC, Université d'Ebolowa",
         hasSlides: false
@@ -208,7 +217,7 @@ const WorkshopSchedule = () => {
         time: "11:30 - 11:50",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 14 «GNN frugal parallèl»",
+        description: "Exposé scientifique 15 «GNN frugal parallèl»",
         presenter: "KAPTCHOUANG Yvan, Doctorant, UY1",
         modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
@@ -217,7 +226,7 @@ const WorkshopSchedule = () => {
         time: "11:50 - 12:10",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 15 «Parallélisation du Quasy-Newton sur architecture multi-coeur»",
+        description: "Exposé scientifique 16 «Parallélisation du Quasy-Newton sur architecture multi-coeur»",
         presenter: "ARSENE TAYO Abichaï, Doctorant, ENSPY, UY1",
         modérateur:"EWODO AMOUGOU Marcel, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
@@ -264,13 +273,22 @@ const WorkshopSchedule = () => {
         time: "15:10 - 15:30",
         type: "Talk",
         title: "Exposé",
-        description: "Exposé scientifique 16 «Protection des données personnelles et RGPD: étude des risque liés aux cookies  et au DOM storage dans les application web»",
-        presenter: "GOUFACK Fideline et TAMWO FEUWO Franck, Doctorant, ENSPY, UY1",
+        description: "Exposé scientifique 17 «Protection des données personnelles et RGPD",
+        presenter: "NGOUFACK Fideline et TAMWO FEUWO Franck, Doctorant, ENSPY, UY1",
         modérateur:"YOUMBI FOUEGO Dorota, Assistant, ESTLC, Université d'Ebolowa",
         hasSlides: false
       },
       {
-        time: "15:30 - 16:00",
+        time: "15:30 - 15:50",
+        type: "Talk",
+        title: "Exposé",
+        description: "Exposé scientifique 18 «Expérimentations des cultures au Cameroun dans la perspective de l'usage de l'IoT et l'IA",
+        presenter: "NDEUGA Mérimé, Doctorant, UD",
+        modérateur:"YOUMBI FOUEGO Dorota, Assistant, ESTLC, Université d'Ebolowa",
+        hasSlides: false
+      },
+      {
+        time: "15:50 - 16:20",
         type: "Talk",
         title: "«Hackathon »",
         description: "Hackathon « Présentation des thèmes et des équipes du Hackathon »",
@@ -281,7 +299,7 @@ const WorkshopSchedule = () => {
   
 
       {
-        time: "16:00 - 16:30",
+        time: "16:20 - 16:30",
         type: "Talk",
         title: "Synthèse",
         description: "Synthèse de la journée",
