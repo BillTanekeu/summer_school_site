@@ -145,7 +145,7 @@ const WorkshopSchedule = () => {
       },
       
       {
-        time: "15:50 - 16:20",
+        time: "16:10 - 16:40",
         type: "Talk",
         title: "Synthèse",
         description: "Synthèse de la journée",
@@ -299,7 +299,7 @@ const WorkshopSchedule = () => {
   
 
       {
-        time: "16:20 - 16:30",
+        time: "16:20 - 16:50",
         type: "Talk",
         title: "Synthèse",
         description: "Synthèse de la journée",
