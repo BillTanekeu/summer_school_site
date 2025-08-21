@@ -7,6 +7,7 @@ import CollaborationSection from "../components/CollaborationSection.jsx";
 import EventSummary from "../components/EventSummary.jsx";
 import NavBar from '../components/NavBar.jsx';
 import SponsorsList from "../components/SponsorList.jsx";
+import EventGallery from "../components/EventGallery.jsx";
 const Home = () => {
   return (
     <div className="container">

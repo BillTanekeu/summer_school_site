@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/components/EventSummary.css';
 import RegisterButton from './RegisterButton';
+import EventGallery from './EventGallery';
 const EventSummary = () => {
   const handleRegistration = () => {
     window.open('https://docs.google.com/forms/d/1qNwC5nErmureEKqUXLDUQn7-KitYeBY1RqNh9jxDCrg/edit', '_blank');
@@ -24,23 +25,10 @@ const EventSummary = () => {
             <span className="event-date">28 - 30 Juillet 2025</span>
             <span className="event-location">Campus de l'ESTLC, Ambam - Sud Cameroun</span>
           </div>
-        </div>
-
-        <div className="event-description">
-          <button className="glitter-button" onClick={handleRegistration}>
-            <svg viewBox="0 0 24 24" className="btn-icon">
-              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
-            </svg>
-            S'enregistrer à l'événement
-          </button>
-          <p style={{marginTop: 35 + 'px'}}>
-            Rejoignez-nous pour un événement innovant dédié à l'exploration des technologies émergentes 
-            dans le secteur de la santé et de la logistique. Découvrez comment l'Internet des Objets (IoT) transforme les 
-            soins de santé et favorise la collaboration entre le monde académique, les entreprises et 
-            les institutions publiques.
-          </p>
+          <EventGallery />
           
         </div>
+
         
      
         <div className="event-objectives">
@@ -109,17 +97,7 @@ const EventSummary = () => {
           </div>
         </div>
 
-        <div className="event-cta">
-          <button className="register-btn" onClick={handleRegistration}>
-            <svg viewBox="0 0 24 24" className="btn-icon">
-              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
-            </svg>
-            S'enregistrer à l'événement
-          </button>
-          <p className="cta-subtitle">
-            Rejoignez la révolution de la santé numérique et contribuez à l'avenir des soins connectés
-          </p>
-        </div>
+        
       </div>
     </div>
   );

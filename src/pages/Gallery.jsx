@@ -6,6 +6,7 @@ import GallerySection from "../components/GallerySection";
 import ResourceUnavailable from "../components/ResourceUnavailable";
 import HotelCarousel from "../components/HotelCarousel";
 import "../styles/components/Gallery.css"
+import EventGallery from "../components/EventGallery";
 
 const Gallery = () => {
   return (
@@ -13,12 +14,13 @@ const Gallery = () => {
     <Header />
     <NavBar />
       <section className="gallery-section hotel-section">
+        <EventGallery />
         <div className="section-title">
           <h1>Logements</h1>
            
         </div>
         <div className="section-description">
-          Votre séjour se déroulera dans les établissements les plus prestigieux et raffinés de la ville.
+          Le séjour s'est déroulé dans les établissements les plus prestigieux et raffinés de la ville.
         
           </div>
         <div className="section-content">

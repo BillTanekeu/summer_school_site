@@ -239,7 +239,14 @@ const SpeakersSection = () => {
       avatar: null,
       hasSlides: false
     },
-    
+    {
+      id: 26,
+      name: "Mme. ESSAME Sophie",
+      title: "Doctorante",
+      institution: "Université de Yaoundé 2, Soa",
+      avatar: null,
+      hasSlides: false
+    },
     
   ];
 
